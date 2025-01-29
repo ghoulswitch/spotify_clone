@@ -5,30 +5,31 @@ body {
 :root {
     --fundo-retangulo: #121212;
     --cor-texto: #b3b3b3;
+    --fonte: "DM Sans", sans-serif;
 }
 
 
 
 .sidebar {
-    background-color: #121212;
-    border-radius: 8px;
-    padding: 12px;
     margin: 0 0 0 8px;
     position: fixed;
 
 }
 
 .sidebar_navigation {
-    padding: 4px 166px 10px 6px;
+    margin: 10px 0 0 0;
+    border-radius: 8px;
+    padding: 14px 0 10px 16px;
+    background-color: #121212;
 }
 
 #logo_spotify {
     width: 95px;
-    padding: 0 20px 18px 0;
+    padding: 0 0 18px 0;
 }
 
 .sidebar ul li {
-    padding: 13px 20px 5px 0;
+    padding: 13px 0 5px 0;
 }
 
 .sidebar ul li a {
@@ -55,9 +56,34 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 4px 8px 4px 8px;
+    padding: 4px 8px;
     color: var(--cor-texto);
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.library_content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.library_button {
+    margin-right: 10px;
+    color: var(--cor-texto);
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700px;
+    font-family: var(--fonte);
+    text-align: center;
+}
+
+
+
+
+
+.cookies {
+    text-decoration: none;
 }
