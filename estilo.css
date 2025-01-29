@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+}
+
+:root {
+    --fundo-retangulo: #121212;
+    --cor-texto: #b3b3b3;
+}
+
+
+
+.sidebar {
+    background-color: #121212;
+    position: fixed;
+    border-radius: 7px;
+    padding: 12px;
+    margin: 0 0 0 8px;
+
+}
+
+.sidebar_navigation {
+    padding: 4px 166px 10px 6px;
+}
+
+#logo_spotify {
+    width: 95px;
+    padding: 0 20px 18px 0;
+}
+
+.sidebar ul li {
+    padding: 13px 20px 5px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+#logo_home {
+    width: 23px;
+    fill: #b3b3b3;
+    padding-right: 10px;
+}
+
+#logo_lupa {
+    width: 23px;
+    padding-right: 10px;
+}
