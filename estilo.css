@@ -11,10 +11,10 @@ body {
 
 .sidebar {
     background-color: #121212;
-    position: fixed;
-    border-radius: 7px;
+    border-radius: 8px;
     padding: 12px;
     margin: 0 0 0 8px;
+    position: fixed;
 
 }
 
@@ -47,4 +47,17 @@ body {
 #logo_lupa {
     width: 23px;
     padding-right: 10px;
+}
+
+.library {
+    background-color: var(--fundo-retangulo);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px 4px 8px;
+    color: var(--cor-texto);
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
 }
