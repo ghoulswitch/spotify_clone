@@ -1,0 +1,40 @@
+.main_container {
+    max-width: 80vw; /* vw: viewport */
+    height: 100vh;
+    margin: 0 56px 0 320px;
+}
+
+.header_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    background-color: var(--fundo-retangulo);
+    border-radius: 8px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow_left {
+    margin-right: 1.25rem; /* rem é uma unidade de medida relativa; vai ser 1.25 dependendo dos itens ao redor */
+}
+
+.arrow_left, .arrow_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+
+    background: var(--fundo-arrow);
+    background-color: var(--fundo-arrow-rgba);
+
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
