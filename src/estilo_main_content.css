@@ -2,6 +2,9 @@
     max-width: 80vw; /* vw: viewport */
     height: 100vh;
     margin: 0 56px 0 320px;
+    position: fixed;
+    z-index: 1000; /* acima dos demais elementos */
+    top: 0;
 }
 
 .header_navigation {
@@ -12,6 +15,7 @@
     margin: 10px;
     background-color: var(--fundo-retangulo);
     border-radius: 8px;
+    padding: 12px;
 }
 
 .navigation {
@@ -35,6 +39,63 @@
     background-color: var(--fundo-arrow-rgba);
 
     border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    margin-right: 210px;
+    background-color: #242424;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header_search img {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+
+.header_search input {
+    background: transparent;
+    border: none;
+    padding: 0 100px 0 12px;
+    color: white;
+    text-overflow: ellipsis; /* faz com que o texto não ultrapasse o tamanho do input */
+    overflow: hidden; 
+    white-space: nowrap; /* não permite quebrar a linha */
+    outline: none; /* remove a linha de foco ao clicar */
+}
+
+/* */
+
+.header_login {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe {
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin: 0 32px 0 32px;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    width: 100px;
+    height: 48px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
     border: none;
     cursor: pointer;
 }

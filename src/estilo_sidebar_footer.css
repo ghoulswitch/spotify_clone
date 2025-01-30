@@ -89,6 +89,7 @@ body {
 
 .fa.fa-plus {
     margin: 24px 10px;
+    cursor: pointer;
 }
 
 /* */
@@ -144,6 +145,7 @@ span.text_subtitle {
     border: 0;
     width: 113px;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .cookies {
