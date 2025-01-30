@@ -104,7 +104,7 @@ body {
     color: var(--cor-texto);
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 0;
+    margin: 0 0 0 0;
     padding: 16px 20px;
 }
 
@@ -177,5 +177,47 @@ span.text_subtitle {
     border-radius: 20px;
 }
 
-/* */
+/* FOOTER */
 
+.footer {
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    padding: 15px 40px;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.premium_text {
+    flex-shrink: 0; /* se o espaço for pequeno, os itens podem encolher para caber */
+}
+
+.premium_title {
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--fonte);
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.premium_subtitle {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: var(--fonte);
+}
+
+.subscribe_free button {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-right: 100px;
+}
